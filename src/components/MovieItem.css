@@ -1,0 +1,134 @@
+.movie-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .movie-item:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-3px);
+  }
+  
+  .movie-item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-item-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .movie-item-description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .movie-item-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .movie-item-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .movie-item-button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+  }
+  
+  .movie-item-button:active {
+    background-color: #b30000;
+    transform: scale(1);
+  }
+  
+  @media (max-width: 600px) {
+    .movie-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .movie-item-buttons {
+      margin-top: 10px;
+    }
+  }
+  .movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .movie-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007BFF;
+  }
+  
+  .movie-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .movie-actions button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-actions .edit-button {
+    background-color: #ffbf00;
+    color: white;
+  }
+  
+  .movie-actions .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .movie-actions .toggle-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .movie-actions button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-actions button:active {
+    transform: scale(1);
+  }
+  
+  

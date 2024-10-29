@@ -1,0 +1,114 @@
+/* General container styling */
+.movie-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for container */
+  .movie-search-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Input field styling */
+  .movie-search-input {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  /* Focus effect for input field */
+  .movie-search-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Search button styling */
+  .movie-search-button {
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: #121314;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for search button */
+  .movie-search-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 86, 179, 0.5);
+  }
+  
+  /* Active effect for search button */
+  .movie-search-button:active {
+    background-color: #003f7f;
+    transform: scale(1);
+  }
+  
+  /* Search results container styling */
+  .movie-search-results {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Individual search result item styling */
+  .movie-search-result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for search result item */
+  .movie-search-result-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add to watchlist button styling */
+  .movie-search-result-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 14px;
+  }
+  
+  /* Hover effect for add to watchlist button */
+  .movie-search-result-item button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(33, 136, 56, 0.5);
+  }
+  
+  /* Active effect for add to watchlist button */
+  .movie-search-result-item button:active {
+    background-color: #1e7e34;
+    transform: scale(1);
+  }
+  
+  

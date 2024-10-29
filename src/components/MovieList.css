@@ -1,0 +1,26 @@
+.movie-list {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #f0f8ff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .movie-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .movie-list-empty {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

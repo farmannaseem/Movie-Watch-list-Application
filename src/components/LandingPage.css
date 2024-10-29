@@ -1,0 +1,50 @@
+/* src/styles/LandingPage.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    padding: 50px 0;
+  }
+  
+  .title {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    color: #777;
+  }
+  
+  .hero-section {
+    margin: 20px 0;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movies-section {
+    margin: 20px 0;
+  }
+  
+  .movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
